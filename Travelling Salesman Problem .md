@@ -48,7 +48,7 @@ def travellingSalesmanProblem(graph, s):
 		# store current Path weight(cost)
 		current_pathweight = 0
 
-		# compute current path weight
+		# compute current path weight 
 		k=s
 		for j in i:
 		    current_pathweight+=graph[k] [j]
